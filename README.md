@@ -3,7 +3,7 @@ Evaluation of the itwmm benchmark datasets.
 
 You will first need to install menpo and menpo 3d from [here](http://www.menpo.org/installation/development.html)
 
-The actual steps are:
+The actual steps for menpo and menpo3d installation are:
 
 1. `conda create -n menpo_dev`
 
@@ -24,3 +24,6 @@ The actual steps are:
    
 8. `cd path_to_menpo_code/menpo3d`
    `pip install -e . --no-deps`
+   
+   
+After installation of the dependences are complete, use demo.ipynb to run the benchmark.
